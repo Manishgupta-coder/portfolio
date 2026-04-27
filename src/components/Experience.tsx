@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 
 const timeline = [
-  { id: 1, type: "experience", title: "Frontend Developer", org: "SparxIt Solutions, Noida", date: "2023 - Present", side: "left" },
+  { id: 1, type: "experience", title: "Frontend Developer", org: "SparxIT Solutions, Noida", date: "2023 - Present", side: "left" },
   { id: 2, type: "education", title: "Information Technology (IT)", org: "Jaypee University Of Information Technology (JUIT)", date: "2019 - 2023", side: "right" },
 ];
 
