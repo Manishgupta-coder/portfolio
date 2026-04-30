@@ -2,11 +2,11 @@
 import { motion } from 'framer-motion';
 
 const projects = [
-  { id: 1, title: "Sustain Eco", category: "Web App", color: "bg-green-950", img: "/sustain_eco.png", link: "https://www.sustaineco.co.in/" },
-  { id: 2, title: "IT Dashboard", category: "Dashboard", color: "bg-blue-950", img: "/it_dashboard.png", link: "https://chintandashboard.github.io/It-dashboard/" },
-  { id: 3, title: "Handwritten CNN", category: "Machine Learning", color: "bg-neutral-900", img: "/cnn_project.png", link: "https://colab.research.google.com/github/Manishgupta-coder/HandwrittenCharacterRecognitionUsingCNN/blob/main/Major_Project_Digit_Recognition.ipynb" },
-  { id: 4, title: "iTune Media", category: "Web App", color: "bg-purple-950", img: "/itune_media.png", link: "https://i-tune-media.vercel.app/" },
-  { id: 5, title: "Rock Paper Scissor", category: "Game", color: "bg-red-950", img: "/rock_paper_scissor.png", link: "https://rock-paper-scissor-seven-azure.vercel.app/" },
+  { id: 1, title: "Sustain Eco", category: "Web App", color: "bg-green-950", img: "/portfolio/sustain_eco.png", link: "https://www.sustaineco.co.in/" },
+  { id: 2, title: "IT Dashboard", category: "Dashboard", color: "bg-blue-950", img: "/portfolio/it_dashboard.png", link: "https://chintandashboard.github.io/It-dashboard/" },
+  { id: 3, title: "Handwritten CNN", category: "Machine Learning", color: "bg-neutral-900", img: "/portfolio/cnn_project.png", link: "https://colab.research.google.com/github/Manishgupta-coder/HandwrittenCharacterRecognitionUsingCNN/blob/main/Major_Project_Digit_Recognition.ipynb" },
+  { id: 4, title: "iTune Media", category: "Web App", color: "bg-purple-950", img: "/portfolio/itune_media.png", link: "https://i-tune-media.vercel.app/" },
+  { id: 5, title: "Rock Paper Scissor", category: "Game", color: "bg-red-950", img: "/portfolio/rock_paper_scissor.png", link: "https://rock-paper-scissor-seven-azure.vercel.app/" },
 ];
 
 export default function Projects() {
