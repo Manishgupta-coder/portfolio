@@ -22,7 +22,7 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <a href="/pdf/ManishGupta%20Resume.pdf" download="ManishGupta-Resume.pdf" className="group relative px-8 py-4 bg-white text-black rounded-full font-bold text-lg overflow-hidden w-full md:w-auto inline-block text-center">
+          <a href="/portfolio/pdf/ManishGupta%20Resume.pdf" download="ManishGupta-Resume.pdf" className="group relative px-8 py-4 bg-white text-black rounded-full font-bold text-lg overflow-hidden w-full md:w-auto inline-block text-center">
             <span className="relative z-10 flex items-center justify-center gap-2">
               Download CV
             </span>

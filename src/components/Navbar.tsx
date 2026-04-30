@@ -30,7 +30,7 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-white transition-colors">Skills</a>
           <a href="#experience" className="hover:text-white transition-colors">Experience</a>
         </div>
-        <a href="/pdf/ManishGupta%20Resume.pdf" download="ManishGupta-Resume.pdf" className="hidden md:inline-flex px-5 py-2 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all">
+        <a href="/portfolio/pdf/ManishGupta%20Resume.pdf" download="ManishGupta-Resume.pdf" className="hidden md:inline-flex px-5 py-2 border border-white/20 rounded-full hover:bg-white hover:text-black transition-all">
           Download CV
         </a>
       </div>
