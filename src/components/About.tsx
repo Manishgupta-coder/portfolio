@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { useRef } from 'react';
 import { Group, MathUtils } from 'three';
-import { Float, Stars } from '@react-three/drei';
+import { Stars } from '@react-three/drei';
 
 function ProgrammerScene() {
   const groupRef = useRef<Group>(null);
@@ -149,14 +149,30 @@ export default function About() {
               className="space-y-6 text-lg md:text-xl text-neutral-400 font-light leading-relaxed"
             >
               <p>
-                <strong className="text-white font-medium text-3xl md:text-4xl block mb-6">Hi, I am Manish Gupta.</strong>
-                Software Engineer with 2+ years of experience in building scalable and responsive web applications.
+                <strong className="text-white font-medium text-3xl md:text-4xl block mb-3">
+                  Manish Gupta
+                </strong>
+                <span className="text-neutral-500 font-mono text-sm uppercase tracking-[0.2em] block mb-6">
+                  Software Engineer · 3+ years in production web development
+                </span>
+                I build and maintain scalable, responsive web applications for real users and business workflows.
+                Currently a Frontend Developer at SparxIT Solutions, I work end-to-end on React.js features—from
+                UI implementation and RESTful API integration to releases, debugging, and production support.
               </p>
               <p>
-                Proficient in React.js, modern JavaScript (ES6+), state management, and RESTful API integration. I have a strong foundation in C, C++, and Data Structures & Algorithms, enabling efficient problem-solving and performance optimization.
+                Day to day, I design reusable component architecture, manage application state with Redux and React
+                Query, and ship interfaces with Tailwind CSS and Bootstrap. I optimize performance (bundle size,
+                rendering, and Core Web Vitals), enforce cross-browser compatibility, and apply WCAG-minded
+                accessibility so products stay fast and usable for everyone.
               </p>
               <p>
-                I am passionate about creating clean, user-friendly interfaces and developing solutions that improve both performance and user experience. Continuously learning and working toward full-stack development, I aim to contribute technical expertise and innovative thinking to a growth-focused organization.
+                I collaborate in Agile/Scrum teams through stand-ups, code reviews, and clear handoffs with designers
+                and backend engineers. A solid grounding in data structures, algorithms, C++, and Java helps me break
+                down complex requirements and write maintainable TypeScript and JavaScript (ES6+).
+              </p>
+              <p>
+                I stay productive with modern tooling—Git, Vite/Webpack, Postman, and CI/CD-friendly workflows—and
+                use GitHub Copilot where it speeds delivery without cutting corners on quality.
               </p>
             </motion.div>
           </div>

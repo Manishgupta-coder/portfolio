@@ -45,25 +45,42 @@ export default function Hero() {
         </Canvas>
       </div>
       
-      <div className="relative z-10 text-center px-4">
+      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <motion.p
+          className="text-sm font-mono text-neutral-500 uppercase tracking-[0.35em] mb-6"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.1 }}
+        >
+          Manish Gupta
+        </motion.p>
         <motion.h1 
-          className="text-6xl md:text-8xl font-black text-white mb-6 tracking-tight"
+          className="text-5xl sm:text-6xl md:text-8xl font-black text-white mb-6 tracking-tight leading-[1.05]"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          FRONTEND <br />
+          SOFTWARE <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-500 to-white">
-            DEVELOPER
+            ENGINEER
           </span>
         </motion.h1>
+        <motion.p
+          className="text-xs sm:text-sm font-mono text-neutral-600 uppercase tracking-[0.25em] mb-8"
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.35 }}
+        >
+          3+ years · React · TypeScript · Production web apps
+        </motion.p>
         <motion.p 
-          className="text-xl md:text-2xl text-neutral-400 max-w-2xl mx-auto"
+          className="text-lg md:text-2xl text-neutral-400 max-w-2xl mx-auto font-light leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Building scalable, responsive, and immersive web applications.
+          I build scalable, responsive interfaces—REST APIs, performance tuning, and
+          accessible UI that ships to real users.
         </motion.p>
       </div>
     </section>
