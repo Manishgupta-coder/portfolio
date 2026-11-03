@@ -153,26 +153,23 @@ export default function About() {
                   Manish Gupta
                 </strong>
                 <span className="text-neutral-500 font-mono text-sm uppercase tracking-[0.2em] block mb-6">
-                  Software Engineer · 3+ years in production web development
+                  Software Developer · SustainEco Systems & Services · Nov 2023 - Present
                 </span>
-                I build and maintain scalable, responsive web applications for real users and business workflows.
-                Currently a Frontend Developer at SparxIT Solutions, I work end-to-end on React.js features—from
-                UI implementation and RESTful API integration to releases, debugging, and production support.
+                I work as a Software Developer at SustainEco Systems & Services in Noida. My experience also includes
+                a Software Developer role at SparxIT Solutions in Noida, where I built React.js features and worked
+                on API integration, responsive interfaces, and production support.
               </p>
               <p>
-                Day to day, I design reusable component architecture, manage application state with Redux and React
-                Query, and ship interfaces with Tailwind CSS and Bootstrap. I optimize performance (bundle size,
-                rendering, and Core Web Vitals), enforce cross-browser compatibility, and apply WCAG-minded
-                accessibility so products stay fast and usable for everyone.
+                At SparxIT, I engineered reusable UI components, integrated RESTful APIs, and developed responsive
+                interfaces. I focus on creating reliable, performant applications that are easy to use.
               </p>
               <p>
-                I collaborate in Agile/Scrum teams through stand-ups, code reviews, and clear handoffs with designers
-                and backend engineers. A solid grounding in data structures, algorithms, C++, and Java helps me break
-                down complex requirements and write maintainable TypeScript and JavaScript (ES6+).
+                I earned my degree in Information Technology from Jaypee University of Information Technology
+                (JUIT), where I studied from 2019 to 2023.
               </p>
               <p>
-                I stay productive with modern tooling—Git, Vite/Webpack, Postman, and CI/CD-friendly workflows—and
-                use GitHub Copilot where it speeds delivery without cutting corners on quality.
+                I bring this education and professional experience together to build clear, maintainable software
+                and continue growing as a developer.
               </p>
             </motion.div>
           </div>

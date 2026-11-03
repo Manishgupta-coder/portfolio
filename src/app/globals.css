@@ -19,6 +19,12 @@ body {
   cursor: none;
 }
 
+@media (max-width: 767px) {
+  body {
+    cursor: auto;
+  }
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
